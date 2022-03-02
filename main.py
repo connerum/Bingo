@@ -257,7 +257,6 @@ I = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15]
 N = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15]
 G = [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15]
 O = [o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14, o15]
-global total
 total = B + I + N + G + O
 
 
@@ -273,5 +272,4 @@ def caller():
         return 0
 
 
-print(window_height)
 root.mainloop()
