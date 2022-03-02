@@ -6,6 +6,7 @@ from tkinter import ttk
 
 # root window
 root = tk.Tk()
+root.iconbitmap('226609.ico')
 root.title('Bingo!')
 
 # get the screen dimension
